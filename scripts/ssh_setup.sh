@@ -7,11 +7,11 @@ PEM=~/.ssh/id.pem
 if [ ! -f $HOME/.ssh_finished_configured ]; then
 
 cat << EOF | sudo tee -a /etc/hosts
-10.0.0.4 master node1
-10.0.0.5 node2
-10.0.0.6 node3
-10.0.0.7 node4
-10.0.0.8 node5
+10.0.0.4 master node01
+10.0.0.5 node02
+10.0.0.6 node03
+10.0.0.7 node04
+10.0.0.8 node05
 EOF
 
 # Scan the VPC for fingerprints
